@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+docs/
+.DS_Store
+.editorconfig
+.log
+.env
+.vscode
+yarn.lock
+.next
+# file: ~/.gitignore_global
+.DS_Store
+.idea
