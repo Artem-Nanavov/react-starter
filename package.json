@@ -1,7 +1,7 @@
 {
-	"name": "react-mobx-starter",
+	"name": "react-starter",
 	"version": "1.0.0",
-	"description": "react mobx starter",
+	"description": "react starter",
 	"main": "index.tsx",
 	"scripts": {
 		"dev": "node ./webpack/webpack.dev-server.js",
@@ -27,22 +27,18 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Artem-Nanavov/react-mobx-starter.git"
+		"url": "git+https://github.com/Artem-Nanavov/react-starter.git"
 	},
 	"keywords": [
-		"react",
-		"mobx"
+		"react"
 	],
 	"author": "Artem_Nanavov",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/Artem-Nanavov/react-mobx-starter/issues"
+		"url": "https://github.com/Artem-Nanavov/react-starter/issues"
 	},
-	"homepage": "https://github.com/Artem-Nanavov/react-mobx-starter#readme",
+	"homepage": "https://github.com/Artem-Nanavov/react-starter#readme",
 	"dependencies": {
-		"react": "^17.0.2",
-		"react-dom": "^17.0.2",
-		"react-router-dom": "^5.2.0",
 		"classnames": "^2.2.6",
 		"clean-webpack-plugin": "1.0.0",
 		"date-fns": "^2.17.0",
@@ -59,10 +55,11 @@
 		"identity-obj-proxy": "^3.0.0",
 		"jsonwebtoken": "^8.5.1",
 		"mini-css-extract-plugin": "0.5.0",
-		"mobx": "^6.3.2",
-		"mobx-react-lite": "^3.2.0",
 		"optimize-css-assets-webpack-plugin": "5.0.1",
+		"react": "^17.0.2",
 		"react-copy-to-clipboard": "^5.0.3",
+		"react-dom": "^17.0.2",
+		"react-router-dom": "^5.3.0",
 		"serialize-javascript": "2.1.2",
 		"simple-peer": "^9.10.0",
 		"simple-progress-webpack-plugin": "1.1.2",
@@ -123,7 +120,7 @@
 		"terser-webpack-plugin": "^2.3.2",
 		"ts-jest": "^26.1.1",
 		"ts-loader": "5.3.1",
-		"typescript": "^3.9.5",
+		"typescript": "^3.9.10",
 		"webpack-bundle-analyzer": "^3.3.2",
 		"webpack-cli": "3.1.2",
 		"webpack-hot-middleware": "2.25.0"

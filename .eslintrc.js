@@ -66,8 +66,31 @@ module.exports = {
 
 		'prettier/prettier': ['error'],
 
+		'import/order': [
+			'error',
+			{
+				groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+				warnOnUnassignedImports: true,
+				'newlines-between': 'always-and-inside-groups',
+				pathGroups: [
+					{
+						pattern: '**/*.scss',
+						group: 'index',
+						position: 'after',
+					},
+					{
+						pattern: './assets/**',
+						group: 'sibling',
+						position: 'before',
+					},
+				],
+			},
+		],
+
 		'import/no-extraneous-dependencies': 'off',
 		'jsx-a11y/click-events-have-key-events': 'off',
+		'react/jsx-key': 'error',
+		'react/jsx-no-target-blank': 'error',
 		'jsx-a11y/no-static-element-interactions': 'off',
 		'react/prop-types': 'off',
 		camelcase: 'off',
